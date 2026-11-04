@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0b3"/><stop offset=".45" stop-color="#e7bd58"/><stop offset="1" stop-color="#8b5e16"/></linearGradient>
+ <filter id="s"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<path d="M150 12 181 31 216 28 230 61 261 80 252 117 276 150 252 183 261 220 230 239 216 272 181 269 150 288 119 269 84 272 70 239 39 220 48 183 24 150 48 117 39 80 70 61 84 28 119 31Z" fill="#111" stroke="url(#g)" stroke-width="6"/>
+<circle cx="150" cy="150" r="103" fill="none" stroke="url(#g)" stroke-width="3"/>
+<circle cx="150" cy="150" r="91" fill="none" stroke="#a77a2d" stroke-width="1.5" stroke-dasharray="4 6"/>
+<path d="M83 183 111 91 150 128 189 91 217 183 188 183 173 139 150 164 127 139 112 183Z" fill="url(#g)" stroke="#fff0b3" stroke-width="2" filter="url(#s)"/>
+<path d="M105 202 Q150 224 195 202 L185 226 150 240 115 226Z" fill="url(#g)"/>
+<text x="150" y="263" fill="#f4d88e" font-family="Arial,sans-serif" font-size="17" font-weight="bold" text-anchor="middle" letter-spacing="4">CLAN</text>
+<path d="M105 55 115 38 125 55 M175 55 185 38 195 55" fill="none" stroke="#e7bd58" stroke-width="4"/>
+</svg>
