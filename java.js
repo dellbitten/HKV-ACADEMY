@@ -1,16 +1,16 @@
 // ================== CHỈNH THÔNG TIN TẠI ĐÂY ==================
 const clanInfo = {
-  name: "QUÂN ĐOÀN",
-  leader: "Tên chủ quân đoàn",
+  name: "HKV ACADEMY",
+  leader: "LOKI",
   server: "Việt Nam",
-  founded: "01/01/2026",
-  memberCount: 50,
-  level: 10
+  founded: "05/09/2026",
+  memberCount: 21,
+  level: 5
 };
 
 // TOP DANH DỰ: sửa tên, chức vụ và điểm tại đây
 const honorMembers = [
-  { name: "MIGHTY RULER", title: "Thành viên xuất sắc", score: "10.000 điểm" },
+  { name: "THÀNH VIÊN 01", title: "Thành viên xuất sắc", score: "10.000 điểm" },
   { name: "THÀNH VIÊN 02", title: "Cống hiến nổi bật", score: "8.500 điểm" },
   { name: "THÀNH VIÊN 03", title: "Chiến binh tiêu biểu", score: "7.800 điểm" }
 ];
