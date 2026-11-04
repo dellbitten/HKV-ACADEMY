@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <title>QUÂN ĐOÀN | Trang chủ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="logo.png" alt="Logo Quân Đoàn" class="brand-logo">
+      <span><b>QUÂN ĐOÀN</b><small>ĐOÀN KẾT • KỶ LUẬT • CHIẾN THẮNG</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Trang chủ</a>
+      <a href="#honor">Top danh dự</a>
+      <a href="#leaders">Ban Quàn Trị</a>
+      <a href="#members">Top thành viên</a>
+      <a href="#rules">Luật quân đoàn</a>
+      <a href="#about">Thông tin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> OFFICIAL CLAN WEBSITE <span></span></div>
+        <h1>VỮNG MẠNH<br><em>VINH QUANG</em></h1>
+        <p>Nơi hội tụ những chiến binh bản lĩnh, tinh thần đồng đội và khát vọng chinh phục.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#members">Xem bảng xếp hạng</a>
+          <a class="btn btn-outline" href="#rules">Đọc luật quân đoàn</a>
+        </div>
+      </div>
+      <div class="hero-mark">
+        <div class="mark-ring"><img src="logo.png" alt="Biểu tượng quân đoàn"></div>
+        <div class="mark-caption">EST. 2026 <span>✦</span> UNITED WE STAND</div>
+      </div>
+      <div class="hero-bottom"><span>01 / 06</span><span>BLACK & GOLD EDITION</span></div>
+    </section>
+
+    <section class="stats" aria-label="Thống kê quân đoàn">
+      <div><strong id="statMembers">50</strong><span>Thành viên</span></div>
+      <div><strong id="statLevel">10</strong><span>Cấp quân đoàn</span></div>
+      <div><strong>24/7</strong><span>Hoạt động</span></div>
+      <div><strong>100%</strong><span>Tinh thần đồng đội</span></div>
+    </section>
+
+    <section class="section" id="honor">
+      <div class="section-heading">
+        <div><span class="kicker">HALL OF FAME</span><h2>TOP <em>DANH DỰ</em></h2></div>
+        <p>Những cá nhân có đóng góp nổi bật và xứng đáng được vinh danh.</p>
+      </div>
+      <div class="podium-grid" id="honorList"></div>
+    </section>
+
+    <section class="section dark-section" id="leaders">
+      <div class="section-heading">
+        <div><span class="kicker">COMMAND TEAM</span><h2>TOP <em>QĐC</em></h2></div>
+        <p>Ban quản lý và những người dẫn dắt quân đoàn.</p>
+      </div>
+      <div class="leader-grid" id="leaderList"></div>
+    </section>
+
+    <section class="section" id="members">
+      <div class="section-heading">
+        <div><span class="kicker">RANKING BOARD</span><h2>TOP <em>THÀNH VIÊN</em></h2></div>
+        <p>Bảng xếp hạng thành viên tiêu biểu của quân đoàn.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>HẠNG</th><th>THÀNH VIÊN</th><th>VAI TRÒ</th><th>ĐIỂM ĐÓNG GÓP</th></tr></thead>
+          <tbody id="memberTable"></tbody>
+        </table>
+      </div>
+      <p class="edit-note">* Dữ liệu mẫu — bạn có thể sửa tên và điểm trong file <b>java.js</b>.</p>
+    </section>
+
+    <section class="section rules-section" id="rules">
+      <div class="section-heading">
+        <div><span class="kicker">CODE OF HONOR</span><h2>LUẬT <em>QUÂN ĐOÀN</em></h2></div>
+        <p>Giữ vững kỷ luật để xây dựng một tập thể đoàn kết và văn minh.</p>
+      </div>
+      <div class="rules-grid" id="rulesList"></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-logo"><img src="logo.png" alt="Logo quân đoàn"></div>
+      <div class="about-copy">
+        <span class="kicker">ABOUT OUR CLAN</span>
+        <h2>THÔNG TIN <em>QUÂN ĐOÀN</em></h2>
+        <p class="about-description">Chúng ta không chỉ là một đội hình, mà là một tập thể cùng chung mục tiêu, tôn trọng và hỗ trợ lẫn nhau.</p>
+        <div class="info-grid">
+          <div><span>Tên Quân Đoà<nav></nav></span><b id="clanName">HKV ACADEMY</b></div>
+          <div><span>Chủ quân đoàn</span><b id="clanLeader">LOKI</b></div>
+          <div><span>Máy chủ</span><b id="clanServer">Việt Nam</b></div>
+          <div><span>Ngày thành lập</span><b id="clanDate">5/9/2026</b></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="logo.png" alt="" class="footer-logo">
+    <p>© <span id="year"></span> QUÂN ĐOÀN — ĐOÀN KẾT TẠO NÊN SỨC MẠNH</p>
+    <a href="#home">LÊN ĐẦU TRANG ↑</a>
+  </footer>
+  <script src="java.js"></script>
+</body>
+</html>
