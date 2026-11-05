@@ -4,7 +4,7 @@ const clanInfo = {
   leader: "LOKI",
   server: "Việt Nam",
   founded: "05/09/2026",
-  memberCount: 21,
+  memberCount: 22,
   level: 5
 };
 
@@ -15,7 +15,7 @@ const honorMembers = [
   { name: "THÀNH VIÊN 03", title: "Chiến binh tiêu biểu", score: "7.800 điểm" }
 ];
 
-// TOP QĐC: ban quản lý quân đoàn
+// : ban quản lý quân đoàn
 const commanders = [
   { name: "loki", role: "QUÂN ĐOÀN CHỦ" },
   { name: "Wind", role: "QUÂN ĐOÀN PHÓ" },
