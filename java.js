@@ -40,6 +40,8 @@ const rules = [
   ["Không gian lận", "Không sử dụng phần mềm trái phép, hack/cheat hoặc hành vi gây ảnh hưởng uy tín quân đoàn."],
   ["Tuân thủ quản lý", "Tôn trọng quyết định hợp lý của chủ quân đoàn và ban quản lý."],
   ["Giữ hình ảnh quân đoàn", "Không phát tán thông tin nội bộ hoặc đại diện quân đoàn phát ngôn thiếu trách nhiệm."]
+  ["Tương Tác Qua Game", "Mic thường xuyên khi chơi game ."]
+
 ];
 
 // ================== HIỂN THỊ WEBSITE ==================
